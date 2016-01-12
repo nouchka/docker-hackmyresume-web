@@ -1,0 +1,7 @@
+hackmyresume:
+  image: nouchka/hackmyresume-web
+  ports:
+    - "127.0.0.1:8001:80"
+  environment:
+    - OUTPUT_TEMPLATE=kendall
+    - RESUME_JSON_URL=https://raw.githubusercontent.com/hacksalot/HackMyResume/master/test/resumes/jrs-0.0.0/jane-q-fullstacker.json
