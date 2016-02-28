@@ -1,7 +1,7 @@
 FROM nouchka/hackmyresume
 MAINTAINER Jean-Avit Promis "docker@katagena.com"
 
-ENV RESUME_JSON_URL https://raw.githubusercontent.com/hacksalot/HackMyResume/master/test/resumes/jrs-0.0.0/jane-q-fullstacker.json
+ENV RESUME_JSON_URL https://raw.githubusercontent.com/nouchka/docker-hackmyresume/master/resume.json
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install \

@@ -1,6 +1,5 @@
 hackmyresume:
-  image: nouchka/hackmyresume-web
-  restart: always
+  build: .
   ports:
     - "127.0.0.1:8001:80"
   environment:
