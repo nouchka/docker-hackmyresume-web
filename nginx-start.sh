@@ -6,7 +6,7 @@ curl -o /usr/share/nginx/html/resume.json $RESUME_JSON_URL
 /start.sh
 
 ##adjust directory (need to fix)
-cp /usr/share/nginx/html/* /var/www/html/
+cp -R /usr/share/nginx/html/* /var/www/html/
 
 ##run ngynx
 nginx -g 'daemon off;'
