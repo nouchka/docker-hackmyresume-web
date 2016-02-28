@@ -5,4 +5,7 @@ hackmyresume:
     - "127.0.0.1:8001:80"
   environment:
     - OUTPUT_TEMPLATE=kendall
+    - PHONE=+33602030405
+    - EMAIL=docker@katagena.com
+    - ADDRESS=25 Rue Delphin Loche
     - RESUME_JSON_URL=https://raw.githubusercontent.com/nouchka/docker-hackmyresume/master/resume.json
