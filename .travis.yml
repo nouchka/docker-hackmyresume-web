@@ -6,7 +6,8 @@ before_script:
   - docker-compose -f docker-compose.test.yml up --build -d
 
 script:
-  - curl http://127.0.0.1:8005/
+  - docker ps
+  - curl http://127.0.0.1:80/
   - if [[ ! -f "index.html" ]]; then exit 1; fi
 
 after_script:
