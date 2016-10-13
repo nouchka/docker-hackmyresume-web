@@ -2,8 +2,15 @@ sudo: required
 services:
   - docker
 
+before_script:
+  - docker-compose -f docker-compose.test.yml up --build -d
+
 script:
-  - docker-compose -f docker-compose.test.yml up
+  - curl http://localhost:8005/
+  - if [[ ! -f "index.html" ]]; then exit 1; fi
+
+after_script:
+  - docker-compose -f docker-compose.test.yml down
 
 notifications:
   email: docker@katagena.com
