@@ -12,6 +12,8 @@ RUN apt-get update && \
 
 COPY nginx-start.sh /nginx-start.sh
 RUN chmod +x /nginx-start.sh
+COPY test.sh /test.sh
+RUN chmod +x /test.sh
 
 EXPOSE 80 443
 
