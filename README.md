@@ -53,3 +53,4 @@ Environment variables:
 
 * Migrate docker-compose file format to version 2
 * Add parameters to define directory
+* CI check contains of index.html
