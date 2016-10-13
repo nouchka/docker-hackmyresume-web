@@ -7,8 +7,8 @@ before_script:
 
 script:
   - docker ps
-  - sleep 20
-  - curl http://127.0.0.1:80/
+  - sleep 15
+  - curl http://127.0.0.1:80/ > index.html
   - if [[ ! -f "index.html" ]]; then exit 1; fi
 
 after_script:
