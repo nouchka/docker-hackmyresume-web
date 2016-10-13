@@ -1,7 +1,7 @@
-hackmyresume:
+sut:
   build: .
   ports:
-    - "127.0.0.1:8001:80"
+    - "8005:80"
   environment:
     - OUTPUT_TEMPLATE=kendall
     - PHONE=+33602030405
