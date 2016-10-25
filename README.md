@@ -2,8 +2,14 @@
 
 [![Docker Hub repository](http://dockeri.co/image/nouchka/hackmyresume-web)](https://registry.hub.docker.com/u/nouchka/hackmyresume-web/)
 
+[![](https://images.microbadger.com/badges/image/nouchka/hackmyresume-web.svg)](https://microbadger.com/images/nouchka/hackmyresume-web "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/nouchka/hackmyresume-web.svg)](https://microbadger.com/images/nouchka/hackmyresume-web "Get your own version badge on microbadger.com")
+[![Docker Automated buil](https://img.shields.io/docker/automated/nouchka/hackmyresume-web.svg)](https://hub.docker.com/r/nouchka/hackmyresume-web/)
 [![Build Status](https://travis-ci.org/nouchka/docker-hackmyresume-web.svg?branch=master)](https://travis-ci.org/nouchka/docker-hackmyresume-web)
+<!---
+[![Docker Stars](https://img.shields.io/docker/stars/nouchka/docker-hackmyresume-web.svg)](https://hub.docker.com/r/nouchka/hackmyresume-web/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/nouchka/docker-hackmyresume-web.svg)]()
+--->
 
 Docker image to build personal website with resume (Ex. https://japromis.katagena.com/)
 
@@ -54,3 +60,7 @@ Environment variables:
 * Migrate docker-compose file format to version 2
 * Add parameters to define directory
 * CI check contains of index.html
+
+# Donate
+
+Bitcoin Address: 15NVMBpZJTvkefwfsMAFA3YhyiJ5D2zd3R
