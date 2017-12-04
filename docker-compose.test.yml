@@ -8,4 +8,4 @@ sut:
     - PHONE=+33602030405
     - EMAIL=docker@katagena.com
     - ADDRESS=25 Rue Delphin Loche
-    - RESUME_JSON_URL=https://raw.githubusercontent.com/nouchka/docker-hackmyresume/master/resume.json
+    - RESUME_JSON_URL=https://raw.githubusercontent.com/nouchka/japromis.katagena.com/master/resume.json

@@ -1,9 +1,9 @@
 FROM nouchka/hackmyresume
 MAINTAINER Jean-Avit Promis "docker@katagena.com"
 LABEL org.label-schema.vcs-url="https://github.com/nouchka/docker-hackmyresume-web"
-LABEL version="1.0"
+LABEL version="latest"
 
-ENV RESUME_JSON_URL https://raw.githubusercontent.com/nouchka/docker-hackmyresume/master/resume.json
+ENV RESUME_JSON_URL https://raw.githubusercontent.com/nouchka/japromis.katagena.com/master/resume.json
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install \

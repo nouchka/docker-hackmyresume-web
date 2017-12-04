@@ -6,10 +6,6 @@
 [![](https://images.microbadger.com/badges/version/nouchka/hackmyresume-web.svg)](https://microbadger.com/images/nouchka/hackmyresume-web "Get your own version badge on microbadger.com")
 [![Docker Automated buil](https://img.shields.io/docker/automated/nouchka/hackmyresume-web.svg)](https://hub.docker.com/r/nouchka/hackmyresume-web/)
 [![Build Status](https://travis-ci.org/nouchka/docker-hackmyresume-web.svg?branch=master)](https://travis-ci.org/nouchka/docker-hackmyresume-web)
-<!---
-[![Docker Stars](https://img.shields.io/docker/stars/nouchka/docker-hackmyresume-web.svg)](https://hub.docker.com/r/nouchka/hackmyresume-web/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/nouchka/docker-hackmyresume-web.svg)]()
---->
 
 Docker image to build personal website with resume (Ex. https://japromis.katagena.com/)
 
@@ -37,7 +33,7 @@ Use from command line (port 8005):
 		-e 'PHONE=+33602030405' \
 		-e 'EMAIL=docker@katagena.com' \
 		-e 'ADDRESS=25 Rue Delphin Loche' \
-		-e 'RESUME_JSON_URL=https://raw.githubusercontent.com/nouchka/docker-hackmyresume/master/resume.json' \
+		-e 'RESUME_JSON_URL=https://raw.githubusercontent.com/nouchka/japromis.katagena.com/master/resume.json' \
 		nouchka/hackmyresume-web
 or use with docker compose (port 8005):
 
@@ -53,7 +49,7 @@ Environment variables:
 	# will replace ###ADDRESS### by this value
 	ADDRESS=25 Rue Delphin Loche
 	# specify url to json file
-	RESUME_JSON_URL=https://raw.githubusercontent.com/nouchka/docker-hackmyresume/master/resume.json
+	RESUME_JSON_URL=https://raw.githubusercontent.com/nouchka/japromis.katagena.com/master/resume.json
 
 # Todo
 
