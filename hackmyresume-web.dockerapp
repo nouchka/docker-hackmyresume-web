@@ -1,0 +1,29 @@
+namespace: nouchka
+maintainers:
+  - name: Jean-Avit Promis
+    email: "docker@katagena.com"
+version: 0.1.0
+name: hackmyresume-web
+description: "Resume page"
+
+---
+version: "3.6"
+services:
+  hackmyresume:
+    image: nouchka/hackmyresume-web
+    ports:
+      - ${port}:80
+    environment:
+      - OUTPUT_TEMPLATE=${template}
+      - PHONE=${phone}
+      - EMAIL=${email}
+      - ADDRESS=${address}
+      - RESUME_JSON_URL=${json}
+
+---
+port: 8005
+template: kendall
+phone: \+33602030405
+email: docker@katagena.com
+address: 25 Rue Delphin Loche
+json: https://raw.githubusercontent.com/nouchka/japromis.katagena.com/master/resume.json
