@@ -1,10 +1,15 @@
-hackmyresume:
-  image: nouchka/hackmyresume-web
-  ports:
-    - "8005:80"
-  environment:
-    - OUTPUT_TEMPLATE=kendall
-    - PHONE=+33602030405
-    - EMAIL=docker@katagena.com
-    - ADDRESS=25 Rue Delphin Loche
-    - RESUME_JSON_URL=https://raw.githubusercontent.com/nouchka/japromis.katagena.com/master/resume.json
+version: '2'
+
+services:
+  hackmyresume:
+    build: .
+    image: nouchka/hackmyresume-web
+    environment:
+      - OUTPUT_TEMPLATE=kendall
+      - TEMPLATE_GIT=https://github.com/nouchka/jsonresume-theme-kendall.git
+      - PHONE=+33602030405
+      - EMAIL=docker@katagena.com
+      - ADDRESS=25 Rue Delphin Loche
+      - RESUME_JSON_URL=https://raw.githubusercontent.com/nouchka/japromis.katagena.com/master/resume.json
+    ports:
+      - "8005:80"
