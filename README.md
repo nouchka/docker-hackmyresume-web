@@ -1,11 +1,8 @@
 # docker-hackmyresume-web
-
-[![Docker Hub repository](http://dockeri.co/image/nouchka/hackmyresume-web)](https://registry.hub.docker.com/u/nouchka/hackmyresume-web/)
-
-[![](https://images.microbadger.com/badges/image/nouchka/hackmyresume-web.svg)](https://microbadger.com/images/nouchka/hackmyresume-web "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/nouchka/hackmyresume-web.svg)](https://microbadger.com/images/nouchka/hackmyresume-web "Get your own version badge on microbadger.com")
-[![Docker Automated buil](https://img.shields.io/docker/automated/nouchka/hackmyresume-web.svg)](https://hub.docker.com/r/nouchka/hackmyresume-web/)
-[![Build Status](https://travis-ci.org/nouchka/docker-hackmyresume-web.svg?branch=master)](https://travis-ci.org/nouchka/docker-hackmyresume-web)
+[![Docker pull](https://img.shields.io/docker/pulls/nouchka/hackmyresume-web)](https://hub.docker.com/r/nouchka/hackmyresume-web/)
+[![Docker stars](https://img.shields.io/docker/stars/nouchka/hackmyresume-web)](https://hub.docker.com/r/nouchka/hackmyresume-web/)
+[![Build Status](https://gitlab.com/japromis/docker-hackmyresume-web/badges/master/pipeline.svg)](https://gitlab.com/japromis/docker-hackmyresume-web/pipelines)
+[![Docker size](https://img.shields.io/docker/image-size/nouchka/hackmyresume-web/latest)](https://hub.docker.com/r/nouchka/hackmyresume-web/)
 
 Docker image to build personal website with resume (Ex. https://japromis.katagena.com/)
 
